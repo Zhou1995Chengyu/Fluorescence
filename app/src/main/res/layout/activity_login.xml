@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="150dp"
+    android:paddingTop="50dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="用户名:"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/login_et1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="20dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="密  码:"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/login_et2"
+                android:layout_width="100dp"
+                android:background="@drawable/textview_border"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:textSize="20sp"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow android:paddingTop="30dp">
+            <Button
+                android:id="@+id/login_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/button_main"
+                android:text="登录"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/login_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/button_main"
+                android:text="取消"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

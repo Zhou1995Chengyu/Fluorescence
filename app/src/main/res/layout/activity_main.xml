@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="70dp"
+    android:paddingLeft="40dp"
+    >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_button1"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:button="@null"
+            android:drawableTop="@drawable/check"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/button_main_pressed"
+            android:text="检测"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/main_button2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:button="@null"
+            android:drawableTop="@drawable/query"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/button_main_pressed"
+            android:text="查询"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/main_button3"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:button="@null"
+            android:drawableTop="@drawable/set"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/button_main_pressed"
+            android:text="设置"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:stretchColumns="*"
+        android:background="@drawable/text_listview_bg"
+        >
+
+        <TableRow android:background="@drawable/table_head"
+            android:paddingTop="2dp">
+            <TextView android:text="No."
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                />
+            <TextView android:text="项目名"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                />
+            <TextView android:text="--"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+        <ListView android:id="@+id/set_item_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            />
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:paddingTop="6dp"
+            android:paddingLeft="90dp">
+            <Button
+                android:id="@+id/set_item_button1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="添加"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/set_item_button2"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="删除"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/set_item_button3"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="返回"
+                android:textSize="18sp"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
